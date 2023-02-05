@@ -827,7 +827,7 @@ GameObject:
   - component: {fileID: 1035464407}
   - component: {fileID: 1035464406}
   m_Layer: 0
-  m_Name: Main Manager
+  m_Name: MainManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -845,6 +845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6758af3b75f45b0a44ff365652adf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TeamColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!4 &1035464407
 Transform:
   m_ObjectHideFlags: 0
