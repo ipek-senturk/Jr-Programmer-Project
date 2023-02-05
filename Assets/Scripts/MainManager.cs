@@ -6,6 +6,8 @@ public class MainManager : MonoBehaviour
 {
     public static MainManager Instance;
 
+    public Color TeamColor;
+
     private void Awake()
     {
         // start of the new code because 2 MainManager objects were created 
@@ -16,7 +18,7 @@ public class MainManager : MonoBehaviour
             return;
         }
         // end of new code
-        
+
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
